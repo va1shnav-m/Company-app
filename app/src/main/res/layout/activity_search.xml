@@ -1,0 +1,52 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#1B9CFC"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMPLOYEE CODE"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:id="@+id/empcode"
+        android:textSize="30dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:text="SEARCH"
+        android:id="@+id/search"
+        android:textColor="#1b9cfc"
+        android:layout_marginHorizontal="100dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:text="BACK"
+        android:id="@+id/back1"
+        android:textColor="#1b9cfc"
+        android:layout_marginHorizontal="100dp"/>
+
+
+
+
+
+
+</LinearLayout>

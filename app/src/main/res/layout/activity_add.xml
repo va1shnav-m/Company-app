@@ -1,0 +1,116 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#1B9CFC"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMPLOYEE ID"
+        android:textColor="@color/white"
+        android:layout_marginTop="35dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:id="@+id/empid"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMPLOYEE NAME"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:textStyle="italic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:id="@+id/empname"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DESIGNATION"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:id="@+id/desg"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL ID"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:textStyle="italic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:id="@+id/emailid"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SALARY"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:id="@+id/salary"
+        android:textSize="30dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:text="SUBMIT"
+        android:id="@+id/submit"
+        android:textColor="#1b9cfc"
+        android:layout_marginHorizontal="100dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:text="BACK"
+        android:id="@+id/back"
+        android:textColor="#1b9cfc"
+        android:layout_marginHorizontal="100dp"/>
+
+
+
+
+
+
+</LinearLayout>
